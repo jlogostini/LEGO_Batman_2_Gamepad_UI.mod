@@ -165,7 +165,7 @@
 		{
 			"Action": "ReplaceFile",
 			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
-			"ReplacementFile": "[Mod]\\Valve\\Microsoft\\Xbox_One_Adaptive_Controller\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Microsoft\\Xbox_One_Adaptive_Controller\\BUTTONS_PC_NXG.FT2",
 			"Disabled": "$xb1-2 = false"
 		},
 		{
