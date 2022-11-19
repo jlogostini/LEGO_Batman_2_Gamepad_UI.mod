@@ -179,6 +179,72 @@
 			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
 			"ReplacementFile": "[Mod]\\Microsoft\\Xbox_Controller\\BUTTONS_PC_NXG.FT2",
 			"Disabled": "$xb-1 = false"
+		},
+				{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Nintendo\\Switch_Pro_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$ns-1 = false"
+		},
+				{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Nintendo\\Switch_Joy_Cons\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$ns-2 = false"
+		},
+				{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Nintendo\\Wii_U_Gamepad\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$wiiu-1 = false"
+		},
+				{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Nintendo\\Wii_U_Pro_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$wiiu-2 = false"
+		},
+				{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Nintendo\\Wii_Remote\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$wii-1 = false"
+		},
+						{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Nintendo\\Wii_Classic_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$wii-2 = false"
+		},
+						{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Nintendo\\GameCube_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$ngc-1 = false"
+		},
+						{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Nintendo\\NES_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$nes-1 = false"
+		},
+						{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Sega\\Dreamcast_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$sdc-1 = false"
+		},
+						{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Sega\\Genesis_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$sg-1 = false"
+		},
+						{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Sega\\Master_System_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$sms-1 = false"
 		}
 
 	]
