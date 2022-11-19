@@ -7,7 +7,7 @@
   },
   "Contributors": [
   ],
-  "DisplayName": "The Heroes Character Pack",
+  "DisplayName": "LEGO Batman 2 Gamepad UI",
   "DisplayImage": "assets\\art\\portrait.png",
   "DisplayBackground": "assets\\art\\background.png",
   "Description": "#Info\nThis mod adds the missing 5 Heroes back to LEGO Batman 2 DC Super Heroes Nightwing. Shazam. Katana. and Damian Wayne. you can chose who you install using the menu in Continuum go crazy have fun\n\nJoin the Discord Sever for more info or if you need help installing the mod\n( https://discord.gg/Q9gwRYzF8U )\n\nContinuum Mod Manager 1.1.0 Beta or later is required",
@@ -58,7 +58,7 @@
       "IntegrationID": "lego-batman-2-dc-super-heroes",
       "TargetVersion": "1.6.*",
       "MinimumVersion": "1.*",
-      "ModCategory": "Character"
+      "ModCategory": "ui"
     }
   ],
   "InstallActions": [
