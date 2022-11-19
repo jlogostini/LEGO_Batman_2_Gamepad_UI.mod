@@ -22,7 +22,7 @@
 					"Value": "ps5-1"
 				},
 				{
-					"Text": "PS4 DualShock 4",
+					"Text": "PS4 - DualShock 4",
 					"Value": "ps4-1"
 				},
 				{
@@ -38,11 +38,11 @@
 					"Value": "ps1-1"
 				},
 				{
-					"Text": "Steam Deck",
+					"Text": "Steam - Steam Deck",
 					"Value": "steam-1"
 				},
 				{
-					"Text": "Steam Controller",
+					"Text": "Steam - Steam Controller",
 					"Value": "steam-2"
 				},
 				{
@@ -58,11 +58,11 @@
 					"Value": "xb360-1"
 				},
 				{
-					"Text": "Xbox - Controller",
+					"Text": "Nintendo Xbox - Controller",
 					"Value": "xb-1"
 				},
 				{
-					"Text": "Switch - Pro Controller",
+					"Text": "Nintendo Switch - Pro Controller",
 					"Value": "ns-1"
 				},
 				{
@@ -86,23 +86,23 @@
 					"Value": "wii-2"
 				},
 				{
-					"Text": "GameCube - Controller",
+					"Text": "GameCube - GameCube Controller",
 					"Value": "ngc-1"
 				},
 				{
-					"Text": "NES - Controller",
+					"Text": "Nintendo Entertainment System - NES Controller",
 					"Value": "nes-1"
 				},
 				{
-					"Text": "Dreamcast - Controller",
+					"Text": "Sega Dreamcast - Controller",
 					"Value": "sdc-1"
 				},
 				{
-					"Text": "Genesis - Controller",
+					"Text": "Sega Genesis - Controller",
 					"Value": "sg-1"
 				},
 				{
-					"Text": "Master System - Controller",
+					"Text": "Sega Master System - Controller",
 					"Value": "sms-1"
 				}
 			]
@@ -115,6 +115,72 @@
 		"ModCategory": "ui"
 	}],
 	"InstallActions": [{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Sony\\PS5_Dualsense\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$ps5-1 = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Sony\\PS4_DualShock_4\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$ps4-1 = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Sony\\PS3_DualShock_3\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "ps3-1 = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Sony\\PS2_DualShock_2\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$ps2-1 = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Sony\\PS1_PlayStation_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$ps1-1 = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$MOD.replace-icon = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$MOD.replace-icon = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$MOD.replace-icon = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$MOD.replace-icon = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$MOD.replace-icon = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$MOD.replace-icon = false"
+		},
+		{
 			"Action": "ReplaceFile",
 			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
 			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
