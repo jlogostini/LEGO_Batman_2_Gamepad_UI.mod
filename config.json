@@ -143,48 +143,6 @@
 			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
 			"ReplacementFile": "[Mod]\\Sony\\PS1_PlayStation_Controller\\BUTTONS_PC_NXG.FT2",
 			"Disabled": "$ps1-1 = false"
-		},
-		{
-			"Action": "ReplaceFile",
-			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
-			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
-			"Disabled": "$MOD.replace-icon = false"
-		},
-		{
-			"Action": "ReplaceFile",
-			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
-			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
-			"Disabled": "$MOD.replace-icon = false"
-		},
-		{
-			"Action": "ReplaceFile",
-			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
-			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
-			"Disabled": "$MOD.replace-icon = false"
-		},
-		{
-			"Action": "ReplaceFile",
-			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
-			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
-			"Disabled": "$MOD.replace-icon = false"
-		},
-		{
-			"Action": "ReplaceFile",
-			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
-			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
-			"Disabled": "$MOD.replace-icon = false"
-		},
-		{
-			"Action": "ReplaceFile",
-			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
-			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
-			"Disabled": "$MOD.replace-icon = false"
-		},
-		{
-			"Action": "ReplaceFile",
-			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
-			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
-			"Disabled": "$MOD.replace-icon = false"
 		}
 
 	]
