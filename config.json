@@ -16,46 +16,94 @@
 			"SettingName": "Gamepad Type",
 			"Description": "Defines the Gamepad UI set",
 			"Type": "Dropdown",
-			"DefaultValue": "PS4-1",
+			"DefaultValue": "ps4-1",
 			"Options": [{
-					"Text": "PS3 - DualShock 3",
-					"Value": "PS3-1"
-				},
-				{
-					"Text": "PS4 - DualShock 4",
-					"Value": "PS4-1"
-				},
-				{
 					"Text": "PS5 - Dualsense",
-					"Value": "PS5-1"
+					"Value": "ps5-1"
 				},
 				{
-					"Text": "Xbox 360 - 360 Controller.",
-					"Value": "XB360-1"
+					"Text": "PS4 DualShock 4",
+					"Value": "ps4-1"
 				},
 				{
-					"Text": "Xbox One - Xbox Wireless Controller",
-					"Value": "XBO-1"
+					"Text": "PS3 - DualShock 3",
+					"Value": "ps3-1"
 				},
 				{
-					"Text": "Xbox Series X/S ",
-					"Value": "XBSXS-1"
+					"Text": "PS2 - DualShock 2",
+					"Value": "ps2-1"
+				},
+				{
+					"Text": "PS1 - PlayStation Controller",
+					"Value": "ps1-1"
+				},
+				{
+					"Text": "Steam Deck",
+					"Value": "steam-1"
+				},
+				{
+					"Text": "Steam Controller",
+					"Value": "steam-2"
+				},
+				{
+					"Text": "Xbox One - Wireless Controller",
+					"Value": "xb1-1"
+				},
+				{
+					"Text": "Xbox One - Adaptive Controller",
+					"Value": "xb1-2"
+				},
+				{
+					"Text": "Xbox 360 - Controller",
+					"Value": "xb360-1"
+				},
+				{
+					"Text": "Xbox - Controller",
+					"Value": "xb-1"
+				},
+				{
+					"Text": "Switch - Pro Controller",
+					"Value": "ns-1"
+				},
+				{
+					"Text": "Switch - Joy Cons",
+					"Value": "ns-2"
 				},
 				{
 					"Text": "Wii U - Gamepad",
-					"Value": "WIIU-1"
+					"Value": "wiiu-1"
 				},
 				{
 					"Text": "Wii U - Pro Controller",
-					"Value": "WIIU-2"
+					"Value": "wiiu-2"
 				},
 				{
-					"Text": "Steam - Steam Controller",
-					"Value": "STEAM-1"
+					"Text": "Wii - Remote",
+					"Value": "wii-1"
 				},
 				{
-					"Text": "Steam - Steam Deck",
-					"Value": "STEAM-2"
+					"Text": "Wii - Classic Controller",
+					"Value": "wii-2"
+				},
+				{
+					"Text": "GameCube - Controller",
+					"Value": "ngc-1"
+				},
+				{
+					"Text": "NES - Controller",
+					"Value": "nes-1"
+				},
+				{
+					"Text": "Dreamcast - Controller",
+					"Value": "sdc-1"
+				},
+				{
+					"Text": "Genesis - Controller",
+					"Value": "sg-1"
+				},
+				{
+					"Text": "Master System - Controller",
+					"Value": "sms-1"
 				}
 			]
 		}]
@@ -66,12 +114,12 @@
 		"MinimumVersion": "1.*",
 		"ModCategory": "ui"
 	}],
-	"InstallActions": [
-	{
-		"Action": "ReplaceFile",
-		"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
-		"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
-		"Disabled": "$MOD.replace-icon = false"
-	}
+	"InstallActions": [{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$MOD.replace-icon = false"
+		}
+
 	]
 }
