@@ -1,126 +1,77 @@
 {
-  "Version": "1.0",
-  "ModID": "lego_batman_2_gamepad-ui",
-  "Author": {
-    "Name": "JohnLogostini",
-    "Role": "Mod Creator"
-  },
-  "Contributors": [
-  ],
-  "DisplayName": "LEGO Batman 2 Gamepad UI",
-  "DisplayImage": "assets\\art\\portrait.png",
-  "DisplayBackground": "assets\\art\\background.png",
-  "Description": "#Info\nThis mod adds the missing 5 Heroes back to LEGO Batman 2 DC Super Heroes Nightwing. Shazam. Katana. and Damian Wayne. you can chose who you install using the menu in Continuum go crazy have fun\n\nJoin the Discord Sever for more info or if you need help installing the mod\n( https://discord.gg/Q9gwRYzF8U )\n\nContinuum Mod Manager 1.1.0 Beta or later is required",
-  "Settings": [
-    {
-      "Category": "Config",
-      "Settings": [
-        {
-          "SettingID": "add-nightwing",
-          "SettingName": "Nightwing",
-          "Type": "Checkbox",
-          "DefaultValue": true,
-          "Description": "Enable Install ( Nightwing )"
-        },
-{
-          "SettingID": "add-shazam",
-          "SettingName": "Shazam",
-          "Type": "Checkbox",
-          "DefaultValue": true,
-          "Description": "Enable Install ( Shazam )"
-        },
-        {
-          "SettingID": "add-robin-damian",
-          "SettingName": "Damian Wayne",
-          "Type": "Checkbox",
-          "DefaultValue": true,
-          "Description": "Enable Install ( Damian Wayne )"
-        },
-{
-          "SettingID": "add-katana",
-          "SettingName": "Katana",
-          "Type": "Checkbox",
-          "DefaultValue": true,
-          "Description": "Enable Install ( Katana )"
-        },
-{
-          "SettingID": "add-zatanna",
-          "SettingName": "Zatanna",
-          "Type": "Checkbox",
-          "DefaultValue": false,
-          "Description": "Enable Install ( Zatanna )"
-        }
-      ]
-    }
-  ],
-  "LinkedIntegrations": [
-    {
-      "IntegrationID": "lego-batman-2-dc-super-heroes",
-      "TargetVersion": "1.6.*",
-      "MinimumVersion": "1.*",
-      "ModCategory": "ui"
-    }
-  ],
-  "InstallActions": [
-{
-      "Action": "WriteToFile",
-      "TargetFile": "[Game]\\CHARS\\COLLECTION.TXT",
-      "Disabled": "$MOD.add-shazam = false",
-      "Content": [
-        {
-          "DataFilePath": "[Mod]\\Shazam.txt",
-          "StartOffset": 6000,
-          "Replace": false
-        }
-      ]
-    },
-{
-      "Action": "WriteToFile",
-      "TargetFile": "[Game]\\CHARS\\COLLECTION.TXT",
-      "Disabled": "$MOD.add-nightwing = false",
-      "Content": [
-        {
-          "DataFilePath": "[Mod]\\Nightwing.txt",
-          "StartOffset": 6000,
-          "Replace": false
-        }
-      ]
-    },
-{
-      "Action": "WriteToFile",
-      "TargetFile": "[Game]\\CHARS\\COLLECTION.TXT",
-      "Disabled": "$MOD.add-robin-damian = false",
-      "Content": [
-        {
-          "DataFilePath": "[Mod]\\Robin_Damian.txt",
-          "StartOffset": 6000,
-          "Replace": false
-        }
-      ]
-    },
-{
-      "Action": "WriteToFile",
-      "TargetFile": "[Game]\\CHARS\\COLLECTION.TXT",
-      "Disabled": "$MOD.add-katana = false",
-      "Content": [
-        {
-          "DataFilePath": "[Mod]\\Katana.txt",
-          "StartOffset": 6000,
-          "Replace": false
-        }
-      ]
-    },
-{
-      "Action": "WriteToFile",
-      "TargetFile": "[Game]\\CHARS\\COLLECTION.TXT",
-      "Disabled": "$MOD.add-zatanna = false",
-      "Content": [
-        {
-          "DataFilePath": "[Mod]\\Zatanna.txt",
-          "StartOffset": 6000,
-          "Replace": false
-        }
-      ]
-    }
-  ]
+	"Version": "1.0",
+	"ModID": "lego_batman_2_gamepad-ui",
+	"Author": {
+		"Name": "JohnLogostini",
+		"Role": "Mod Creator"
+	},
+	"DisplayName": "LEGO Batman 2 Gamepad UI",
+	"DisplayImage": "assets\\art\\portrait.png",
+	"DisplayBackground": "assets\\art\\background.png",
+	"Description": "#Info\nThis mod adds the missing 5 Heroes back to LEGO Batman 2 DC Super Heroes Nightwing. Shazam. Katana. and Damian Wayne. you can chose who you install using the menu in Continuum go crazy have fun\n\nJoin the Discord Sever for more info or if you need help installing the mod\n( https://discord.gg/Q9gwRYzF8U )\n\nContinuum Mod Manager 1.1.0 Beta or later is required",
+	"Settings": [{
+		"Category": "Config",
+		"Settings": [{
+			"SettingID": "gamepad-type",
+			"SettingName": "Gamepad Type",
+			"Description": "Defines the Gamepad UI set",
+			"Type": "Dropdown",
+			"DefaultValue": "PS4-1",
+			"Options": [{
+					"Text": "PS3 - DualShock 3",
+					"Value": "PS3-1"
+				},
+				{
+					"Text": "PS4 - DualShock 4",
+					"Value": "PS4-1"
+				},
+				{
+					"Text": "PS5 - Dualsense",
+					"Value": "PS5-1"
+				},
+				{
+					"Text": "Xbox 360 - 360 Controller.",
+					"Value": "XB360-1"
+				},
+				{
+					"Text": "Xbox One - Xbox Wireless Controller",
+					"Value": "XBO-1"
+				},
+				{
+					"Text": "Xbox Series X/S ",
+					"Value": "XBSXS-1"
+				},
+				{
+					"Text": "Wii U - Gamepad",
+					"Value": "WIIU-1"
+				},
+				{
+					"Text": "Wii U - Pro Controller",
+					"Value": "WIIU-2"
+				},
+				{
+					"Text": "Steam - Steam Controller",
+					"Value": "STEAM-1"
+				},
+				{
+					"Text": "Steam - Steam Deck",
+					"Value": "STEAM-2"
+				}
+			]
+		}]
+	}],
+	"LinkedIntegrations": [{
+		"IntegrationID": "lego-batman-2-dc-super-heroes",
+		"TargetVersion": "1.6.*",
+		"MinimumVersion": "1.*",
+		"ModCategory": "ui"
+	}],
+	"InstallActions": [
+	{
+		"Action": "ReplaceFile",
+		"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+		"ReplacementFile": "[Mod]\\PATH\\BUTTONS_PC_NXG.FT2",
+		"Disabled": "$MOD.replace-icon = false"
+	}
+	]
 }
