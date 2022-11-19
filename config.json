@@ -58,7 +58,7 @@
 					"Value": "xb360-1"
 				},
 				{
-					"Text": "Nintendo Xbox - Controller",
+					"Text": "Xbox - Controller",
 					"Value": "xb-1"
 				},
 				{
@@ -143,6 +143,42 @@
 			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
 			"ReplacementFile": "[Mod]\\Sony\\PS1_PlayStation_Controller\\BUTTONS_PC_NXG.FT2",
 			"Disabled": "$ps1-1 = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Valve\\Steam_Deck\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$steam-1 = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Valve\\Steam_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$steam-2 = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Microsoft\\Xbox_One_Wireless_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$xb1-1 = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Valve\\Microsoft\\Xbox_One_Adaptive_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$xb1-2 = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Microsoft\\Xbox_360_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$xb360-1 = false"
+		},
+		{
+			"Action": "ReplaceFile",
+			"TargetFile": "[Game]\\FRAMEWORK-DATA\\GUI\\FONT\\BUTTONS_PC_NXG.FT2",
+			"ReplacementFile": "[Mod]\\Microsoft\\Xbox_Controller\\BUTTONS_PC_NXG.FT2",
+			"Disabled": "$xb-1 = false"
 		}
 
 	]
